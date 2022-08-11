@@ -317,7 +317,7 @@ footer iframe{
     /* Cards */
 
     .card{
-        width: 60%;
+        width: 55%;
         margin-bottom: 20px;
     }
 
@@ -388,7 +388,7 @@ footer iframe{
     }
 
     .card{
-        height: 380px;
+        height: 300px;
     }
 
     .website .contenedor-textos-main{
@@ -396,12 +396,20 @@ footer iframe{
     }
 
     .galeria-cont>img{
-        width: 97%;
+        width: 60%;
     }
 }
 
 @media screen and (max-width:399px){
     .hero{
         height: 25vh;
+    }
+
+    .card{
+        height: 250px;
+    }
+
+    .galeria-cont>img{
+        width: 70%;
     }
 }
