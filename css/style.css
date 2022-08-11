@@ -38,8 +38,14 @@ body{
     top: 300px;
     text-decoration: none;
     padding: 12px 15px;
-    background: #cc9419;
+    color: #fff;
     border-radius: 8px;
+    border: 3px solid #cc9419;
+    transition: 400ms ease;
+}
+
+.textos-hero a:hover{
+    background-color: #cc9419;
     color: #fff;
 }
 
@@ -102,9 +108,15 @@ body{
 .cta{
     display: inline-block;
     text-decoration: none;
-    background-color: #cc9419;
+    color: black;
     padding: 12px 15px;
     border-radius: 8px;
+    border: 3px solid #cc9419;
+    transition: 400ms ease;
+}
+
+.cta:hover{
+    background-color: #cc9419;
     color: #fff;
 }
 
@@ -175,6 +187,11 @@ body{
     box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);
     cursor: pointer;
     overflow: hidden;
+    transition: 300ms ease;
+}
+
+.galeria-cont>img:hover{
+    transform: scale(1.03);
 }
 
 /* info2 */
@@ -205,6 +222,8 @@ footer{
 .contenedor-footer{
     display: flex;
     flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 footer iframe{
@@ -213,21 +232,14 @@ footer iframe{
 }
 
 .tel-mail{
-    position: relative;
-    left: 700px;
     list-style: none;
+    margin: 30px;
 }
 
-.footer-img{
-    position: relative;
-    right: 180px;
-    width: 40%;
+.tel-mail li{
+    font-size:larger;
 }
 
-.mapa-contacto{
-    display: flex;
-    flex-direction: column;
-}
 
 @media screen and (max-width:800px){
     .textos-hero h1{
@@ -284,6 +296,24 @@ footer iframe{
     .last-section .contenedor-textos-main{
         width: 98%;
         margin-bottom: 20px;
+    }
+
+    .contenedor-footer{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    footer iframe{
+        width: 100%;
+    }
+
+    .footer-img{
+        z-index: -1;
+    }
+
+    .tel-mail{
+        padding: 30px;
     }
 
 
