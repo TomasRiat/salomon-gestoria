@@ -361,6 +361,10 @@ footer iframe{
     .hero{
         height: 40vh;
     }
+
+    .textos-hero a{
+        display: none;
+    }
 }
 
 @media screen and (max-width:599px){
