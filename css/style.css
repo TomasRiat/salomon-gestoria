@@ -280,11 +280,11 @@ footer iframe{
     
 
     .hero{
-        height: 50vh;
+        height:45vh;
     }
 
     .textos-hero a{
-        top: 2px;
+        top: 200px;
     }
     /* estilos generales */
     .titulo{
@@ -359,7 +359,7 @@ footer iframe{
 
 @media screen and (max-width:600px) {
     .hero{
-        height: 40vh;
+        height: 30vh;
     }
 
     .textos-hero a{
